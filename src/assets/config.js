@@ -6,17 +6,14 @@ import {
   Shield,
   Heart
 } from "lucide-react";
-import herologo from '../assets/heroLogo.png'
-import navlogo from '../assets/navlogo.png'
-import teapacket from '../assets/teapacket.jpeg'
 
 const CONFIG = {
   brand: {
     name: "Morning Heaven Tea",
     tagline: "Start Your Day in Heaven",
-    logo: navlogo,
-    navlogo:navlogo,
-    heroLogo:herologo,
+    logo: "/navlogo.png",
+    navlogo:"/navlogo.png",
+    heroLogo:"/herologo.png",
     heroBackground:
       "linear-gradient(135deg, #2d5016 0%, #4a7c2c 50%, #6b9d3e 100%)",
   },
@@ -43,7 +40,7 @@ const CONFIG = {
     name: "Morning Heaven Premium Tea",
     description:
       "Our signature Assam tea crafted for a strong, refreshing cup.",
-    image: teapacket,
+    image: "/teapacket.jpeg",
     sizes: ["1 kg", "500 g", "250 g"],
     features: ["Strong Taste", "Fresh Aroma"],
     comingSoon: false
