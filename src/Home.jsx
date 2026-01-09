@@ -3,6 +3,7 @@ import { Menu, X, Phone, Mail, MapPin, ChevronRight, Leaf, Award, Shield, Clock,
 import "./index.css";
 import CONFIG from './assets/config';
 import emailjs from '@emailjs/browser';
+import { Link } from "react-router-dom";
 
 const maskPhoneNumber = (phone) => {
   return phone.slice(0, 8) + "****" + phone.slice(-2);
@@ -663,10 +664,22 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-green-700 pt-8 text-center text-green-200">
-          <p>&copy; {new Date().getFullYear()} {CONFIG.brand.name}. All rights reserved.</p>
-          <p className="text-sm mt-2">Crafted with ❤️ for tea lovers everywhere</p>
-        </div>
+        <div className="border-t border-green-700 pt-8 text-center text-green-200 space-y-3">
+  <Link to="/privacy-policy" className="hover:underline block">
+    Privacy Policy
+  </Link>
+
+  <Link to="/terms-and-conditions" className="hover:underline block">
+    Terms & Conditions
+  </Link>
+
+  <p>
+    &copy; {new Date().getFullYear()} {CONFIG.brand.name}. All rights reserved.
+  </p>
+
+  <p className="text-sm">Crafted with ❤️ for tea lovers everywhere</p>
+</div>
+
       </div>
     </footer>
   );
