@@ -109,7 +109,7 @@ const CONFIG = {
     phone: "+91 6000831233",
     email: "morningheaven02@gmail.com",
     address:
-      "Biswanath Chariali,Assam, India"
+      "Dodhpur,Medical Road,Rifa Palace,Aligarh,Uttar Pradesh, India,PIN-202002"
   }
 };
 
