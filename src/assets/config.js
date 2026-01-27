@@ -27,9 +27,9 @@ const CONFIG = {
     "As a growing tea brand, we work closely with experienced tea growers and processors to bring you fresh, strong, and aromatic tea. Every batch is carefully selected, traditionally processed, and packed to preserve its natural flavor and freshness.",
 
   stats: [
-    { value: "Assam", label: "Origin" },
-    { value: "Premium", label: "Quality Focus" },
-    { value: "100%", label: "Natural Tea" }
+   { value: "Assam", label: "Single-Origin" },
+   { value: "Premium", label: "Handpicked Leaves" },
+   { value: "FSSAI", label: "Registered" }
   ]
 },
 
