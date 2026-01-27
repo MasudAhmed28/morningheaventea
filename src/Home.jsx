@@ -672,6 +672,9 @@ const Footer = () => {
   <Link to="/terms-and-conditions" className="hover:underline block">
     Terms & Conditions
   </Link>
+  <p className="text-sm">
+    FSSAI Registered | License No: <span className="font-semibold">22726133000144</span>
+  </p>
 
   <p>
     &copy; {new Date().getFullYear()} {CONFIG.brand.name}. All rights reserved.
