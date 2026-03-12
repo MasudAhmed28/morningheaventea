@@ -37,16 +37,26 @@ const CONFIG = {
  products: [
   {
     id: 1,
-    name: "Morning Heaven Premium Tea",
+    name: "Morning Heaven Special CTC Blend",
     description:
-      "Our signature Assam tea crafted for a strong, refreshing cup.",
-    image: "/teapacket.jpeg",
+      "A carefully blended CTC tea offering a smooth taste and refreshing aroma for everyday enjoyment.",
+    image: "/specialtea.jpeg",
     sizes: ["1 kg", "500 g", "250 g"],
-    features: ["Strong Taste", "Fresh Aroma"],
+    features:  ["CTC Blend", "Smooth Flavor", "Daily Refreshing Tea"],
+    comingSoon: false
+  },
+    {
+    id: 2,
+    name: "Morning Heaven Premium Assam Tea",
+    description:
+      "Premium Assam CTC tea with a strong taste and rich aroma, perfect for your daily morning tea.",
+    image: "/normaltea.jpeg",
+    sizes: ["1 kg", "500 g", "250 g"],
+    features:  ["Premium Assam Leaves", "Strong Taste", "Rich Aroma"],
     comingSoon: false
   },
   {
-  id: 2,
+  id: 3,
   name: "New Flavours Coming Soon",
   description:
     "We’re working on exciting new tea blends with traditional spices and refreshing notes. Crafted with the same quality and care you love.",
